@@ -12,6 +12,10 @@ ms.author: schaffererin
 
 # Confidential Containers (preview) with Azure Kubernetes Service (AKS)
 
+> [!NOTE]
+> Confidential Containers will be retired on 12 January, 2026. Customers are recommended spin down their Confidential Computing node pools and move to [another Confidential Computing Offering on Azure](https://learn.microsoft.com/en-us/azure/confidential-computing/overview-azure-products) before that date.
+> Please visit [this link](PLACEHOLDER) for more information, or to engage with the AKS team.
+
 Confidential Containers provide a set of features and capabilities to further secure your standard container workloads to achieve higher data security, data privacy and runtime code integrity goals. Azure Kubernetes Service (AKS) includes Confidential Containers (preview) on AKS.
 
 Confidential Containers builds on Kata Confidential Containers and hardware-based encryption to encrypt container memory. It establishes a new level of data confidentiality by preventing data in memory during computation from being in clear text, readable format. Trust is earned in the container through hardware attestation, allowing access to the encrypted data by trusted entities.
